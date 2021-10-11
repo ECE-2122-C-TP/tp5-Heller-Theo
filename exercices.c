@@ -22,7 +22,7 @@ void exercice1() {
 void exercice2() {
     int i = 0;
     int N = 0; // taille logique du tableau
-    int tableau[NOMBRE_MAX];
+    int tableau[NOMBRE_MAX] = {0};
 
     do {
         printf("Combien d'entiers voulez vous inserer dans le tableau ?\n");
@@ -47,8 +47,8 @@ void exercice2() {
 
 void exercice3() {
     int i = 0, j = 0;
-    int tableauDeuxDimensions[NOMBRE_MAX1][NOMBRE_MAX2];
-    int tableauUneDimension[NOMBRE_MAX1 * NOMBRE_MAX2];
+    int tableauDeuxDimensions[NOMBRE_MAX1][NOMBRE_MAX2] = {0};
+    int tableauUneDimension[NOMBRE_MAX1 * NOMBRE_MAX2] = {0};
 
     printf("Saisissez les 12 entiers de votre tableau de taille %d*%d:\n", NOMBRE_MAX1, NOMBRE_MAX2);
     for (i = 0; i < NOMBRE_MAX1; i++) {
