@@ -63,10 +63,10 @@ int saisirEntier() {
 
 
 int maxTableau(int tableau[], int taille) {
-
+    int i = 0;
     int max = tableau[0];   //Comme le tableau n'est pas vide à priori on initialise notre variable avec le premier element.
 
-    for (int i = 0; i < taille; i++ ) {
+    for (i = 0; i < taille; i++ ) {
         if (tableau[i] > max) {
             max = tableau[i];
         }
